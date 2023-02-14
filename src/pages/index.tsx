@@ -1,9 +1,12 @@
 import styles from './index.less';
+import Table1 from './table1';
+import Table2 from './table树结构';
 
 export default function IndexPage() {
   return (
     <div>
-      <h1 className={styles.title}>Page index</h1>
+      {/* <Table1 /> */}
+      <Table2 />
     </div>
   );
 }
